@@ -1,13 +1,23 @@
 {
   "name": "vue-on-c9",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "Criar um projeto VueJS utilizando apenas o Cloud9",
   "author": "Estudio Digital Bocca <gabriel@estudiodigitalbocca.com.br>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "git": "npm run gitstatus && npm run gitadd && npm run gitcommit && npm run gittag && npm run gporigin && npm run gpbitbucket",
+    "gitstatus": "git status",
+    "gitadd": "git add .",
+    "gittag": "git tag v%npm_package_version%",
+    "gitcommit": "git commit -m \"%npm_package_config_commitMessage%\"",
+    "gporigin": "git push origin master --tags",
+    "gpbitbucket": "git push bitbucket master --tags"
+  },
+  "config": {
+    "commitMessage": "Automatizado o Controle de Versão"
   },
   "dependencies": {
     "axios": "^0.17.0",
@@ -45,6 +55,7 @@
     "sass-loader": "^6.0.6",
     "semver": "^5.3.0",
     "shelljs": "^0.7.6",
+    "standard": "^10.0.3",
     "url-loader": "^0.5.8",
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
