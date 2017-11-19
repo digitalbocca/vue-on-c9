@@ -1,5 +1,10 @@
 # vue-on-c9 #
-## v0.2.0 ##
+## v0.3.0 ##
+
+**Mudanças na v0.3.0**
+
+- Atualizada engine do node para v8.9.1.
+- Utilizando PUG no template.
 
 **Mudanças na v0.2.0**
 

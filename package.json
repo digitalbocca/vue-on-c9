@@ -1,6 +1,6 @@
 {
   "name": "vue-on-c9",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Criar um projeto VueJS utilizando apenas o Cloud9",
   "author": "Estudio Digital Bocca <gabriel@estudiodigitalbocca.com.br>",
   "private": true,
@@ -17,7 +17,7 @@
     "gpbitbucket": "git push bitbucket master --tags"
   },
   "config": {
-    "commitMessage": "Automatizado o Controle de Versão"
+    "commitMessage": "Utilizando PUG para o template"
   },
   "dependencies": {
     "axios": "^0.17.0",
@@ -51,6 +51,7 @@
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "ora": "^1.2.0",
     "portfinder": "^1.0.13",
+    "pug": "^2.0.0-rc.4",
     "rimraf": "^2.6.0",
     "sass-loader": "^6.0.6",
     "semver": "^5.3.0",
