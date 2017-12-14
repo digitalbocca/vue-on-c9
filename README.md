@@ -1,7 +1,10 @@
 # vue-on-c9 #
-## v0.3.0 ##
+## v0.4.0 ##
 
 > Criar um projeto VueJS utilizando apenas o Cloud9
+
+# Projeto Legado
+## Este código não será mais Atualizado.
 
 ## INÍCIO ##
 

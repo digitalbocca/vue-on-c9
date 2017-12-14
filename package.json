@@ -1,6 +1,6 @@
 {
   "name": "vue-on-c9",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Criar um projeto VueJS utilizando apenas o Cloud9",
   "author": "Estudio Digital Bocca <gabriel@estudiodigitalbocca.com.br>",
   "private": true,
@@ -11,13 +11,13 @@
     "git": "npm run gitstatus && npm run gitadd && npm run gitcommit && npm run gittag && npm run gporigin && npm run gpbitbucket",
     "gitstatus": "git status",
     "gitadd": "git add .",
-    "gittag": "git tag v%npm_package_version%",
-    "gitcommit": "git commit -m \"%npm_package_config_commitMessage%\"",
+    "gittag": "cross-var git tag v$npm_package_version",
+    "gitcommit": "cross-var git commit -m \"$npm_package_config_commitMessage\"",
     "gporigin": "git push origin master --tags",
     "gpbitbucket": "git push bitbucket master --tags"
   },
   "config": {
-    "commitMessage": "Utilizando PUG para o template"
+    "commitMessage": "Projeto Legado"
   },
   "dependencies": {
     "axios": "^0.17.0",
@@ -38,6 +38,7 @@
     "chalk": "^2.0.1",
     "connect-history-api-fallback": "^1.3.0",
     "copy-webpack-plugin": "^4.0.1",
+    "cross-var-no-babel": "^1.2.0",
     "css-loader": "^0.28.0",
     "eventsource-polyfill": "^0.9.6",
     "express": "^4.14.1",

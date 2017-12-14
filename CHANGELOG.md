@@ -1,5 +1,9 @@
 # vue-on-c9 #
-## v0.3.0 ##
+## v0.4.0 ##
+
+**Mudanças na v0.4.0**
+
+- Projeto Legado.
 
 **Mudanças na v0.3.0**
 
