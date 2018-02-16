@@ -1,5 +1,5 @@
 # vue-on-c9 #
-## v0.4.0 ##
+## v0.5.0 ##
 
 > Criar um projeto VueJS utilizando apenas o Cloud9
 

@@ -1,6 +1,6 @@
 {
   "name": "vue-on-c9",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Criar um projeto VueJS utilizando apenas o Cloud9",
   "author": "Estudio Digital Bocca <gabriel@estudiodigitalbocca.com.br>",
   "private": true,
@@ -8,16 +8,16 @@
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
     "build": "node build/build.js",
-    "git": "npm run gitstatus && npm run gitadd && npm run gitcommit && npm run gittag && npm run gporigin && npm run gpbitbucket",
+    "git": "npm run gitstatus && npm run gitadd && npm run gitcommit && npm run gittag && npm run gporigin && npm run gpgitlab",
     "gitstatus": "git status",
     "gitadd": "git add .",
     "gittag": "cross-var git tag v$npm_package_version",
     "gitcommit": "cross-var git commit -m \"$npm_package_config_commitMessage\"",
     "gporigin": "git push origin master --tags",
-    "gpbitbucket": "git push bitbucket master --tags"
+    "gpgitlab": "git push gitlab master --tags"
   },
   "config": {
-    "commitMessage": "Projeto Legado"
+    "commitMessage": "Movido para o Arquivo EDB"
   },
   "dependencies": {
     "axios": "^0.17.0",
@@ -47,7 +47,7 @@
     "friendly-errors-webpack-plugin": "^1.6.1",
     "html-webpack-plugin": "^2.30.1",
     "http-proxy-middleware": "^0.17.3",
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.7.2",
     "opn": "^5.1.0",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "ora": "^1.2.0",
