@@ -11,12 +11,10 @@ window.swal = swal
 Vue.config.productionTip = false
 
 window.vm = new Vue({
-  el: '#app',
   router,
-  template: '<App/>',
-  components: { App },
+  render: h => h(App),
   mounted () {
     require('bootstrap/dist/css/bootstrap.min.css')
     require('sweetalert2/dist/sweetalert2.min.css')
   }
-})
+}).$mount('#app')
