@@ -1,6 +1,6 @@
 # vue-on-c9
 
-## v0.6.0
+## v0.7.0
 
 > Criar um projeto VueJS utilizando apenas o Cloud9
 
@@ -12,4 +12,4 @@
 
 - Veja no arquivo CHANGELOG.md.
 
-> (c)2017-2018 - Estúdio Digital Bocca
+> (c)2017-2019 Estúdio Digital Bocca
