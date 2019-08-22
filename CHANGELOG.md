@@ -1,6 +1,10 @@
 # vue-on-c9
 
-## v0.7.2
+## v0.7.3
+
+## Mudanças na v0.7.3
+
+- Atualização de dependências para correções de segurança.
 
 ## Mudanças na v0.7.2
 
