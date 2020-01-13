@@ -1,6 +1,10 @@
 # vue-on-c9
 
-## v0.7.3
+## v0.7.4
+
+## Mudanças na v0.7.4
+
+- Atualização de dependências para correções de segurança.
 
 ## Mudanças na v0.7.3
 
@@ -48,3 +52,6 @@
 
 - Instalação das dependências.
 - Início do Controle de Versão.
+
+> (c)2020 - Estúdio Digital Bocca
+
