@@ -1,6 +1,6 @@
 {
   "name": "vue-on-c9",
-  "version": "0.7.5",
+  "version": "0.7.6",
   "description": "Criar um projeto VueJS utilizando apenas o Cloud9",
   "author": "Estudio Digital Bocca <gabriel@estudiodigitalbocca.com.br>",
   "private": true,
@@ -23,23 +23,23 @@
     "dist"
   ],
   "dependencies": {
-    "axios": "^0.19.2",
-    "bootstrap": "^4.5.0",
-    "sweetalert2": "^9.15.3",
-    "vue": "^2.6.11",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "sweetalert2": "^10.15.7",
+    "vue": "^2.6.12",
     "vue-hot-reload-api": "^2.3.4",
-    "vue-router": "^3.3.4",
-    "vuex": "^3.5.1"
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
-    "@vue/component-compiler-utils": "^3.1.2",
+    "@vue/component-compiler-utils": "^3.2.0",
     "cross-var-no-babel": "^1.2.0",
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-clean-easy": "^1.0.2",
-    "pug": "^3.0.0",
-    "sass": "^1.26.10",
-    "standard": "^14.3.4",
-    "vue-template-compiler": "^2.6.11"
+    "pug": "^3.0.2",
+    "sass": "^1.32.8",
+    "standard": "^16.0.3",
+    "vue-template-compiler": "^2.6.12"
   },
   "engines": {
     "node": ">= 4.0.0",
